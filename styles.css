@@ -19,7 +19,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 10px 40px;
     background: rgba(0, 0, 0, 0.8);
     z-index: 10;
 }
@@ -54,7 +54,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     position: relative;
     background: radial-gradient(circle at center, #1a1a1a, #0d0d0d);
 }
