@@ -366,3 +366,45 @@ body {
     background: #0d0d0d;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-content {
+        max-width: 90%;
+    }
+
+    .glitch {
+        font-size: 2.5rem; /* Reduce font size for smaller screens */
+    }
+
+    .tagline {
+        font-size: 1.2rem;
+    }
+
+    .cta-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .code-cube {
+        position: static;
+        margin-top: 30px;
+    }
+
+    .cube {
+        width: 150px;
+        height: 150px;
+    }
+
+    .face {
+        width: 150px;
+        height: 150px;
+        font-size: 1.2rem;
+    }
+}
